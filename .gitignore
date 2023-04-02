@@ -1,6 +1,7 @@
-dist
 .vscode
 coverage
 node_modules
 *.d.ts
 *.d.ts.map
+
+.DS_Store
