@@ -54,6 +54,8 @@ ykv.set('key1', 'new val')
 ykv.get('key1') // => 'new val'
 ```
 
+> Nota bene: `YKeyValue` is not another "shared type" (like `YArray` or `YMap`), but an implementation on top of `YArray`
+
 ### Benchmarks
 > `npm test`
 
