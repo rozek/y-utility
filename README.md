@@ -49,7 +49,7 @@ ykv.on('change', changes => {
   //  { action: 'delete', oldValue: T } | 
   //  { action: 'update', oldValue: T, newValue: T } | 
   //  { action: 'add', newValue: T }
-  // >[]
+  // >
 })
 
 ykv.set('key1', 'val1')
