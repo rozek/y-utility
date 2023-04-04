@@ -44,7 +44,12 @@ const ykv = new YKeyValue(yarr)
 
 // Fires events similarly to Y.Map when content changes
 ykv.on('change', changes => {
-  console.log(changes) // => Map<string, { action: 'delete', oldValue: T } | { action: 'update', oldValue: T, newValue: T } | { action: 'add', newValue: T }>
+  console.log(changes)
+  // => Map<string,
+  //  { action: 'delete', oldValue: T } | 
+  //  { action: 'update', oldValue: T, newValue: T } | 
+  //  { action: 'add', newValue: T }
+  // >[]
 })
 
 ykv.set('key1', 'val1')
