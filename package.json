@@ -38,6 +38,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist *.d.ts */*.d.ts *.d.ts.map */*.d.ts.map",
+    "build": "npm run dist",
     "types": "tsc --outDir .",
     "dist": "rollup -c",
     "debug": "rollup -c && concurrently 'rollup -wc' 'http-server -o test.html'",
